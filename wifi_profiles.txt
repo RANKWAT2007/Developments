@@ -1,0 +1,19 @@
+
+Profiles on interface Wi-Fi:
+
+Group policy profiles (read only)
+---------------------------------
+    <None>
+
+User profiles
+-------------
+    All User Profile     : Redmi Note 13 5G
+    All User Profile     : Redmi 13C 5G
+    All User Profile     : Girls Hostel - C
+    All User Profile     : Girls hostel
+    All User Profile     : Maitri Patel
+    All User Profile     : C:/Malware/Virus.exe
+    All User Profile     : Girls Hostel
+    All User Profile     : Redmi Note 13 Pro+ 5G
+    All User Profile     : Xstream_5GHz
+

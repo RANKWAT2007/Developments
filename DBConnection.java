@@ -6,26 +6,31 @@ import java.sql.DriverManager;
 public class DBConnection {
 
     private static final String URL =
-            "jdbc:mysql://localhost:3306/expense_tracker";
+            "jdbc:mysql://localhost:3306/qr_attendance";
 
-    private static final String USER = "root";
+    private static final String USER =
+            "root";
 
-    private static final String PASSWORD = "SS1876$$@@2007hm";
+    private static final String PASSWORD =
+            "SS1876$$@@2007hm";
 
     public static Connection getConnection() {
 
-        Connection conn = null;
-
         try {
 
-            Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName(
+                    "com.mysql.cj.jdbc.Driver");
 
-            conn = DriverManager.getConnection(URL, USER, PASSWORD);
+            return DriverManager.getConnection(
+                    URL,
+                    USER,
+                    PASSWORD);
 
         } catch (Exception e) {
+
             e.printStackTrace();
         }
 
-        return conn;
+        return null;
     }
 }
